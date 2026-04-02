@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Solas & Co</title>
+  <meta name="description" content="Get in touch with Solas and Co. Send us your makeup questions, product suggestions or general enquiries - we are happy to help.">
+  <meta name="keywords" content="contact Solas and Co, Irish beauty contact, makeup advice Ireland, Discover Irish Beauty">
+  <meta name="author" content="Solas and Co">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="guide.html">Makeup Guide</a>
+    <a href="products.html">Irish Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Get in Touch</h1>
+    <p>Send us any queries!</p>
+  </header>
+
+  <section>
+    <h2>Send us a Message</h2>
+    <form id="contact-form">
+
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="e.g. Ciara Kelly">
+        <p class="error" id="name-error"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="your@email.com">
+        <p class="error" id="email-error"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="county">Your County</label>
+        <select id="county">
+          <option value="">-- Select your county --</option>
+          <option>Dublin</option>
+          <option>Cork</option>
+          <option>Galway</option>
+          <option>Limerick</option>
+          <option>Kerry</option>
+          <option>Wicklow</option>
+          <option>Kildare</option>
+          <option>Meath</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+        <p class="error" id="message-error"></p>
+      </div>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+    <p id="success-message"></p>
+  </section>
+
+  <footer>
+    <p>Solas & Co 🍀</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="guide.html">Guide</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>&copy; 2026 Solas&Co.ie</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+
+</body>
+</html>
